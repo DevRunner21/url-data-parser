@@ -4,7 +4,9 @@ import com.devrun.urldataparser.common.exception.BusinessException;
 import com.devrun.urldataparser.common.exception.ErrorInfo;
 import java.io.IOException;
 import org.jsoup.Jsoup;
+import org.springframework.stereotype.Component;
 
+@Component
 public class BasicCrawler implements Crawler{
 
     @Override
